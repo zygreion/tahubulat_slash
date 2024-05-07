@@ -31,6 +31,10 @@
     padding-bottom: 20px;
 }
 
+.form-label {
+    font-weight: bold;
+}
+
 .logbutton{
     display: flex;
     justify-items: center;
@@ -45,8 +49,13 @@
 }
 
 .image {
-    width: 50px; /* Sesuaikan ukuran logo sesuai kebutuhan */
+    width: 40px; /* Sesuaikan ukuran logo sesuai kebutuhan */
     margin: 0 10px; /* Atur jarak antara logo */
+    border-radius: 50% 50%;
+}
+
+.image:hover {
+    cursor: pointer;
 }
 
 .link-container {

@@ -19,10 +19,10 @@ function Login() {
                                 <div className='title'>Continue</div>
                                 <Form>
                                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                                        <Form.Label>Your Email:</Form.Label>
+                                        <Form.Label className="form-label">Your Email:</Form.Label>
                                         <Form.Control type="email" placeholder="Email" />
                                         <Form.Text className="text-muted">
-                                            We'll never share your email with anyone else.
+                                            We'll never share your email with anyone else
                                         </Form.Text>
                                     </Form.Group>
 
@@ -31,7 +31,7 @@ function Login() {
                                         <Form.Control type="password" placeholder="Password" />
                                     </Form.Group>
                                     <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                                        <Form.Check type="checkbox" label="Check me out" />
+                                        <Form.Check type="checkbox" label="Remember my account" />
                                     </Form.Group>
 
 
