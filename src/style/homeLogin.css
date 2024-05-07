@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'GillSans'; /* Nama font yang akan digunakan */
+    src: url('../assets/fonts/Gill-Sans-Font-Family/Gill Sans.otf') format('truetype'); /* Path ke file font */
+    /* Optional: tambahkan properti lain seperti font-weight, font-style jika diperlukan */
+}
+.myBG {
+    height: 100vh;
+    background-image: url(../assets/img/UIUX\ HEKETON.png);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login{
+    height: 80vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+
+.card{
+    width: 500px;
+    padding: 20px;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.logbutton{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Atur jarak dari form */
+}
+
+.image {
+    width: 50px; /* Sesuaikan ukuran logo sesuai kebutuhan */
+    margin: 0 10px; /* Atur jarak antara logo */
+}
+
+.link-container {
+    text-align: center; /* Mengatur teks agar berada di tengah */
+    margin-top: 10px; /* Atur jarak dari form */
+}
+
+.card-link {
+    display: block; /* Membuat link menjadi blok untuk tumpukan vertikal */
+    margin-bottom: 5px; /* Atur jarak antara link */
+}
